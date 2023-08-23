@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(Images/13072020-Ilustrasi-Novel-The-Old-Man-And-The-Seat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+img{
+    width: 30%;
+    transition: transform 0.5s ease;
+}
+img:hover{
+    transform: scale(1.5);
+}
+.container-fluid p{
+    color : white;
+    margin-top: 10px;
+    text-shadow: 2px 2px 2px black;
+    width: 50%;
+}
+.mt-4{
+    margin-top: 570px !important;
+}
+.mt-5{
+    margin-top: 50px !important;
+}
+.ms-5{
+    margin-left: 390px !important;
+}
+div h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.divMenu{
+    position: fixed;
+    width: 36%;
+}
+.divMenu a{
+    z-index: 1;
+}
+.divMenu div{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    z-index: -1;
+    opacity: 0.5;
+    margin-top: -50px;
+}
+@media screen and (max-width : 769px){
+    .divMenu{
+        display: block;
+        width: 9%;
+    }
+    .ms-3{
+    margin-left: 20px !important;      
+    }
+    .divMenu a{
+        margin-left: 20px;
+        position: relative;
+        display: inline-block;
+    }
+    .divMenu div{
+        height: 200px;
+        width: 58%;
+        margin-left: 15px;
+        margin-top: -190px;
+        display: none;
+    }
+    .drop-1,.drop-2,.drop-3,.drop-4{
+        visibility: hidden;
+    }
+    .drop-1{
+        margin-top: -250px !important;
+    }
+    .drop-2{
+        margin-top: -450px !important;
+    }
+    .drop-3{
+        margin-top: -650px !important;
+    }
+    .drop-4{
+        margin-top: -850px !important;
+    }
+    
+    .divMenu:hover .drop-1{
+        visibility: visible;
+    } 
+    .divMenu:hover .drop-2{
+        visibility: visible;
+    } 
+    .divMenu:hover .drop-3{
+        visibility: visible;
+    } 
+    .divMenu:hover .drop-4{
+        visibility: visible;
+    } 
+    .mt-3{
+        margin-top: -50px !important;
+    }
+    
+}
